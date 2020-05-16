@@ -10,9 +10,9 @@ class Account():
         self.balance += number
     def withdraw(self,withdraw_number):
         if withdraw_number > self.balance:
-            print('Funds Unavailable')
+            print('Funds Unavailable!!!')
         else:
-            print('Withdraw Accepted')
+            print('Withdraw Accepted!!!')
 
 acct1 = Account('Jose',100)
 print(acct1.balance)
